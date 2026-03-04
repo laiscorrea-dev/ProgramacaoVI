@@ -2,7 +2,7 @@
 telefone método para verificar se é de menor ou não
 */
 export class Pessoa{
-    constructor(nome,idade ,telefone){
+    constructor(nome, idade ,telefone){
         this.nome= nome;
         this.idade = idade;
         this.telefone= telefone;
@@ -10,10 +10,10 @@ export class Pessoa{
 
     verificarIdade(){
         if(this.idade<18){
-            throw this.nome + "- Pessoa menor de idade"; 
+            throw this.nome +" "+ this.idade + "- Pessoa menor de idade"; 
         }
         else{
-            throw "Pessoa de maior";
+            throw this.nome+" "+ this.idade +  "- Pessoa de maior";
         }
     }
 
