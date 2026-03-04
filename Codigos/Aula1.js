@@ -37,7 +37,7 @@ console.log("Média: "+ media)
 
 let idades = [10, 15, 20, 18, 17]
 let nomes = ['lais', 'miguel', 'yanni']
-let notas = [5,6,7,10,9,8]
+
 let cont = 0
 while(cont < 6){ // imprimindo as notas
   console.log(notas[cont])
