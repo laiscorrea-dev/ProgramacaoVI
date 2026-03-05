@@ -10,10 +10,10 @@ export class Pessoa{
 
     verificarIdade(){
         if(this.idade<18){
-            throw this.nome +" "+ this.idade + "- Pessoa menor de idade"; 
+            throw this.nome +" "+ this.idade + " - Pessoa menor de idade"; 
         }
         else{
-            throw this.nome+" "+ this.idade +  "- Pessoa de maior";
+            throw this.nome+" "+ this.idade +  " - Pessoa de maior";
         }
     }
 
