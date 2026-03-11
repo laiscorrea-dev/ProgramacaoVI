@@ -1,0 +1,17 @@
+// Exemplo utilizando Array Simples
+var metros=[1,5,3,2 ];
+var milimetros= metros.map( function( elem){ // função anônima
+    return elem* 1000;});
+
+    for(var a=0;a< milimetros.length; a++){
+    console.log(milimetros[a] + ' mm');
+}
+// Exemplo utilizando Array Simples
+- ES6
+var metros=[1,5,3,2 ];
+// Função “milimetros” utilizando Sintaxe ES6
+var milimetros= metros.map( elem => elem* 1000 ); // arrow funcion
+
+    for(var a=0; a<milimetros.length; a++)
+    {console.log(milimetros[a]+' mm');
+}
