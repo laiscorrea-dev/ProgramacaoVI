@@ -1,4 +1,4 @@
-import {Pessoa} from "./pessoa.js";
+import {Pessoa} from "./revisao_funcoes/Pessoa.js";
 import{Conta} from "./conta.js";
 
 
